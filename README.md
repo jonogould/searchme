@@ -1,9 +1,9 @@
 Searchme
 ========
 
-Author: Jono Gould ([TravelGround.com](http://travelground.com)), @jonogould
+by Jono Gould ([TravelGround](http://github.com/TravelGround)), @jonogould
 
-```searchme``` uses the [awalk](https://github.com/TravelGround/awalk) script to search through a root directory, finding any file that is not called at least once
+```searchme``` uses the [awalk](https://github.com/TravelGround/awalk) script to search through a root directory, finding any file that is not called at least once.
 
 
 ## Installation
@@ -15,8 +15,8 @@ This script runs in terminal.
 To get these tools running, you need the following dependencies, available off npm:
 
 
-- [commander](visionmedia.github.com/commander.js/)
-- [shelljs](shelljs.org)
+- [commander](http://visionmedia.github.com/commander.js)
+- [shelljs](http://shelljs.org)
 - [underscorejs](http://underscorejs.org)
 - [cli-color](https://npmjs.org/package/cli-color)
 - [awalk](https://github.com/TravelGround/awalk)
@@ -41,7 +41,7 @@ How do you use ``` searchme ```, I hear you asking? Well:
 
 - Open terminal
 - Navigate to the ``` awalk ``` root dir
-- Type ``` ./awalk ``` and press enter
+- Type ``` ./searchme ``` and press enter
 - There are your helpful instructions :D
 
 ## Examples
