@@ -22,7 +22,7 @@ To get these tools running, you need the following dependencies, available off n
 - [awalk](https://github.com/TravelGround/awalk)
 - [utils](https://github.com/TravelGround/utils)
 
-To install this dependency the easy way, run the following command from the ``` searchme ``` root dir:
+To install this dependency (the easy way), run the following command from the ``` searchme ``` root dir:
 
 ``` $ npm install ```
 
@@ -32,17 +32,21 @@ Or add them individually by calling:
 
 ``` $ npm install underscore ```
 
-Lastly the script executable using ```chmod +x awalk.js```
+Lastly make the script executable using ```chmod +x searchme.js```
 
 
 ## Usage
 
-How do you use ``` awalk ```, I hear you asking? Well:
+How do you use ``` searchme ```, I hear you asking? Well:
 
 - Open terminal
 - Navigate to the ``` awalk ``` root dir
 - Type ``` ./awalk ``` and press enter
 - There are your helpful instructions :D
+
+## Examples
+
+Check out the [wiki](https://github.com/TravelGround/searchme/wiki) for some examples on what this tool could be used for, check it out and add your own!
 
 
 ### Now go play, use it to create useful stuff!
