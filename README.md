@@ -1,9 +1,9 @@
-Awalk
-=====
+Searchme
+========
 
 Author: Jono Gould ([TravelGround.com](http://travelground.com)), @jonogould
 
-```searchme``` uses the asynchronous function [awalk](http://github.com/TravelGround/awalk) to search through a root directory, finding any file that is not called at least once
+```searchme``` uses the [awalk](https://github.com/TravelGround/awalk) script to search through a root directory, finding any file that is not called at least once
 
 
 ## Installation
@@ -14,15 +14,21 @@ This script runs in terminal.
 
 To get these tools running, you need the following dependencies, available off npm:
 
+
+- [commander](visionmedia.github.com/commander.js/)
+- [shelljs](shelljs.org)
 - [underscorejs](http://underscorejs.org)
+- [cli-color](https://npmjs.org/package/cli-color)
+- [awalk](https://github.com/TravelGround/awalk)
+- [utils](https://github.com/TravelGround/utils)
 
-To install this dependency the easy way, run the following command from the ``` awalk ``` root dir:
+To install this dependency the easy way, run the following command from the ``` searchme ``` root dir:
 
-``` $ npm init ```
+``` $ npm install ```
 
 Or place the dependencies there manually but adding them to a ``` node_modules ``` folder
 
-Or add them by calling:
+Or add them individually by calling:
 
 ``` $ npm install underscore ```
 

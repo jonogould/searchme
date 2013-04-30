@@ -1,0 +1,28 @@
+{
+  "name": "searchme",
+  "version": "0.0.1",
+  "description": "Search through root directory, finding any file that is not called at least once",
+  "main": "index.js",
+  "scripts": {
+    "test": "searchme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TravelGround/searchme.git"
+  },
+  "keywords": [
+    "searchme",
+    "file",
+    "search",
+    "finder"
+  ],
+  "author": "Jono Gould",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "6a8ca71ffcacfaec5e1780f725d2b84343669729",
+  "dependencies": {
+    "shelljs": "0.1.2",
+    "underscore": "1.4.4",
+    "commander": "1.1.1"
+  }
+}
