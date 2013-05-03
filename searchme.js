@@ -120,7 +120,7 @@ awalk(root, function(err, results) {
 		_.some(results, function(f) {
 			if (fs.existsSync(f.path)) {
 				//	Exclude some folders, add your own?
-				if(f.path.indexOf('DEPRECATED') < 0 && f.path.indexOf('ajax') < 0 && f.path.indexOf('img') < 0 && f.path.indexOf('blog') < 0 && f.path.indexOf('sitemap.xml') < 0 && f.path.indexOf('.git') < 0) {
+				if(f.path.indexOf('DEPRECATED') < 0 && f.path.indexOf('img') < 0 && f.path.indexOf('blog') < 0 && f.path.indexOf('sitemap.xml') < 0 && f.path.indexOf('.git') < 0) {
 					//	Do the search and record the findings
 					var found = utils.search(sf.file, f.path).result;
 
